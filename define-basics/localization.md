@@ -6,7 +6,7 @@ By default is set in English but you can change it on some of the available lang
 
 This option you will find in **Settings &gt; Localization**.
 
-![](../.gitbook/assets/screenshot%20%281%29.png)
+![](https://github.com/dimovdaniel/poscloud/tree/8df92fbd19d751b10539f8e7e63923d91da8c35e/.gitbook/assets/screenshot%20%281%29.png)
 
 ### **Adding new language**
 

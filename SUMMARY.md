@@ -13,7 +13,6 @@
 * [Mail server](define-basics/obtain-smtp.md)
 * [Localization and Time format](define-basics/localization.md)
 * [Pricing Plans](define-basics/payments.md)
-* [Pay with card](define-basics/pay-with-card.md)
 
 ## Plugins
 

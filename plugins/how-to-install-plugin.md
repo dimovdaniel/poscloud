@@ -1,6 +1,6 @@
 # How to install plugin
 
-{% embed url="https://www.youtube.com/watch?v=GPs9rqOgR9Y" %}
+{% embed url="https://www.youtube.com/watch?v=GPs9rqOgR9Y" caption="" %}
 
 If your experience a problem with the install you can do the following.
 

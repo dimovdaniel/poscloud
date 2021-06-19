@@ -4,37 +4,37 @@ description: Learn how to setup the thermal Printer Module
 
 # Thermal Printer Module
 
-### Install
+## Install
 
 After you have downloaded the code from CodeCanyon, log in to your admin panel as admin and go to the "Apps" section. there is an "Add" button where you can upload the zip file you got from CodeCanyon.
 
 {% page-ref page="how-to-install-plugin.md" %}
 
-### Setup as project admin
+## Setup as project admin
 
-After the module is installed, if you go to "Settings-&gt;Apps" you will see the "PrintNode" section. 
+After the module is installed, if you go to "Settings-&gt;Apps" you will see the "PrintNode" section.
 
 ![](https://i.imgur.com/zi2M6jc.png)
 
-There you should enter the "Convert API" secret.  [https://www.convertapi.com/](https://www.convertapi.com/)
+There you should enter the "Convert API" secret. [https://www.convertapi.com/](https://www.convertapi.com/)
 
-Convert API is used for invoice to pdf creation in runtime. This setup is optional. 
+Convert API is used for invoice to pdf creation in runtime. This setup is optional.
 
-### Setup as vendor
+## Setup as vendor
 
-When vendors go to their management site \( or you as admin to the restaurant setup \), in the apps section they will be able to set up Print Node \( [https://www.printnode.com/en](https://www.printnode.com/en) \). Print Node allows us to connect any printer to the Platform with the PrintNode Client and an easy-to-use JSON API. 
+When vendors go to their management site \( or you as admin to the restaurant setup \), in the apps section they will be able to set up Print Node \( [https://www.printnode.com/en](https://www.printnode.com/en) \). Print Node allows us to connect any printer to the Platform with the PrintNode Client and an easy-to-use JSON API.
 
 ![](https://i.imgur.com/EVgFW9P.png)
 
-#### Create an account in Print Node and get PrintNode API Key
+### Create an account in Print Node and get PrintNode API Key
 
-Create an account in [PrintNode.com](https://app.printnode.com/app/login/register) and choose your desired pricing. You can start free. 
+Create an account in [PrintNode.com](https://app.printnode.com/app/login/register) and choose your desired pricing. You can start free.
 
 ![](https://i.imgur.com/vVk8cQC.png)
 
-Enter the API Key in the Prinit Node API Key fields. 
+Enter the API Key in the Prinit Node API Key fields.
 
-#### Obtain a printer id
+### Obtain a printer id
 
 1. Download the [client](https://www.printnode.com/en/download) from PrintNode.com.
 2. Install the client and login with your user and pass. 
@@ -47,17 +47,15 @@ Enter the API Key in the Prinit Node API Key fields.
 
 This video may help
 
-{% embed url="https://www.youtube.com/watch?v=GIq8W5tbx6M" %}
+{% embed url="https://www.youtube.com/watch?v=GIq8W5tbx6M" caption="" %}
 
-### 
-
-### Supported Thermal Printers
+## Supported Thermal Printers
 
 List of Supported Printers [here](https://mobidonia.com/2021/04/08/esc-pos-with-raw-printing-in-printnode/).
 
 But I will encourage you to first test in the demo.
 
-### Demo
+## Demo
 
 In order to experience the demo, and test on an existing printer that you may have.
 
@@ -71,10 +69,4 @@ In order to experience the demo, and test on an existing printer that you may ha
 8. You should get the order prined on your printer
 9. Remove the printer id and the API key from the demo site
 10. Delete the API key from PrintNodel.com
-
- 
-
-
-
-
 

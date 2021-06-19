@@ -18,15 +18,15 @@ One common mistake is to use plan\_id instead of price\_id. So you should use th
 
 ### PayPal
 
-First, login as admin, and go in Settings. Go in the Finances tab, and make sure Tool used for subscriptions is PayPal. 
+First, login as admin, and go in Settings. Go in the Finances tab, and make sure Tool used for subscriptions is PayPal.
 
 First you will need to create developer account on PayPal on the following [link](https://developer.paypal.com/classic-home). After you create the account open the **Dashboard** from the menu in the right upper corner.
 
-Now select **My Apps and credentials** and click on the button **Create App**. 
+Now select **My Apps and credentials** and click on the button **Create App**.
 
-Now fill the informations that are required and make sure that you will select the **Merchant App Type**. After you created the app you will see the **Client ID** and **Secret** credentials ****generated.  ****Copy them and fill your PayPal credentials in Settings-&gt; Finances. First, test in development - sandbox mode.
+Now fill the informations that are required and make sure that you will select the **Merchant App Type**. After you created the app you will see the **Client ID** and **Secret** credentials **generated.** Copy them and fill your PayPal credentials in Settings-&gt; Finances. First, test in development - sandbox mode.
 
-![](../.gitbook/assets/screenshot-1-%20%281%29.png)
+![](https://github.com/dimovdaniel/poscloud/tree/8df92fbd19d751b10539f8e7e63923d91da8c35e/.gitbook/assets/screenshot-1-%20%281%29.png)
 
 Create account on the official [PayPal website](https://www.paypal.com/) and the login with the account.
 
