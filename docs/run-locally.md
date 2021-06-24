@@ -12,10 +12,6 @@ After that, open the code and execute the command
 ./vendor/bin/sail up
 ```
 
-You can add alias for the sail command.
-
-Then open the site on localhost, and the install window should appear.
-
 One thing we needed to change in our .env was
 
 \`\`\`text DB\_HOST=mysql
@@ -23,4 +19,30 @@ One thing we needed to change in our .env was
 \`\`\`text
 
 DB\_HOST=mysql
+
+## Option 1: Install via web UI
+
+Then open the site on [localhost](http://127.0.0.1), and the install window should appear.
+
+
+## Option 2: Install via CMD
+
+After you have setup the .env and sail is running, open new terminal - command line and navigate to the project. 
+
+execute
+```text
+sail artisan migrate --fresh --seed
+```
+
+This will setup the database.
+
+Then execute / run
+```text
+cd storage
+touch installed
+```
+This should create empty file in storage, to let the system know that the project is installed.
+Then open the site on [localhost](http://127.0.0.1).
+You should see the site now
+
 
