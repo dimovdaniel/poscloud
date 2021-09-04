@@ -24,12 +24,12 @@ DB\_HOST=mysql
 
 Then open the site on [localhost](http://127.0.0.1), and the install window should appear.
 
-
 ## Option 2: Install via CMD
 
-After you have setup the .env and sail is running, open new terminal - command line and navigate to the project. 
+After you have setup the .env and sail is running, open new terminal - command line and navigate to the project.
 
 execute
+
 ```text
 sail artisan migrate --fresh --seed
 ```
@@ -37,12 +37,11 @@ sail artisan migrate --fresh --seed
 This will setup the database.
 
 Then execute / run
+
 ```text
 cd storage
 touch installed
 ```
-This should create empty file in storage, to let the system know that the project is installed.
-Then open the site on [localhost](http://127.0.0.1).
-You should see the site now
 
+This should create empty file in storage, to let the system know that the project is installed. Then open the site on [localhost](http://127.0.0.1). You should see the site now
 
