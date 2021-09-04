@@ -72,3 +72,7 @@ After adding the missing translation, you can switch to your language.
 
 -- Another option will be to use a tool like PoEditor, where you can update en.json in order to maintain full translation.
 
+## Multi language menu 
+In some languages like arabic, the characters take up lot more spaces. So the default table size count is not enough. 
+[Here](https://cln.sh/St3NVI) is how to change it to text
+

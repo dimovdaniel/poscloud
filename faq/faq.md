@@ -4,12 +4,23 @@ description: Frequently Asked Questions (FAQs)
 
 # FAQ - Technical
 
-## How to set 24h working time
+## Install the project in subdomain
 
-We have made an overwrite, if you set closing time to be 23:59 to be interpreted as no closing at all.
+When you want to run your project in subdomain, you need to declare this subdomain in your Settings. To do that, you will need to go to Site setting->Setup->Subdomains and add your domain there.  Ex, if you want to run the project in app.domain.com.
 
-Ex - night club working hours from 22 and closes at 4 in the morning.  
-Friday - 22:00 - 23:59 Saturday - 00:00 - 04:00 \| Saturday Shift 2 - 22:00 - 23:59 Sunday - 00:00 - 04:00
+![](https://i.imgur.com/k6uuMa2.jpg)
+
+
+## How to set overnight working time
+
+Since 2.5.2 you are able to set overnight working time just by  making ex start time 08:00PM and closing time ex 02:00 PM
+
+## Notification translation
+
+One really common problem is that the emails is no received correctly. Password or email is missing. 
+and here is the reason why. 
+Please check this [video](https://www.loom.com/share/112938a8fa31418386b5ae2c8c71303b)
+
 
 ## Registration is not working.
 
@@ -17,7 +28,7 @@ This is one of the most common problems. It happens because SMTP is not correctl
 
 {% page-ref page="../define-basics/obtain-smtp.md" %}
 
-## How restaurants owner register?
+## How do restaurants owner register?
 
 At the front end part of the script, you will find the form for **Registration.** . The interested restaurants will fill the form, and Restaurant/owner account will be automatically created. An email will be sent to them.
 
@@ -103,7 +114,7 @@ Also, please talk with your hosting provider on how to enable the zip extension 
 
 When for some reason, the one-click update can't work, you can easily update via FTP.
 
-We post the updated file publicly. And you can download the updates from [here](https://updates.restoqr.online/v2/).
+We post the updated file publicly. And you can download the updates from [here](http://updates.restoqr.online/v2/).
 
 Go inside your current version. There should be a zip file. If the zip file version, is bigger than current, there is an update for that version.
 
@@ -115,7 +126,7 @@ Drag and Drop the folders from the update to your FTP. Overwrite them.
 
 Repeat the procedure until you see that this is the latest version.
 
-![Drag and Drop to upload](https://i.imgur.com/jSUh6Rr.png)
+c
 
 ![Overwrite](https://i.imgur.com/AlYBBCo.png)
 
@@ -218,3 +229,14 @@ In order to force your site to run only in HTTPS login as admin, then go in "Sit
 
 This is what can be done on the Project level. Make sure you have valid SSL and that you have set the HTTPS force on the hosting level also.
 
+## How to enable PHP Extension
+
+If you get an error like this one
+
+![](https://i.imgur.com/EXp59rL.png)
+
+This indicates that the INTL extension - or depending on the problem, another one is not enabled.
+
+Here is a good video on how you can enable it. If you can't. Please speak with your hosting provider.
+
+{% embed url="https://www.youtube.com/watch?v=kYwRtMwWerQ" %}
