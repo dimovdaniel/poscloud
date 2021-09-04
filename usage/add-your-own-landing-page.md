@@ -8,7 +8,7 @@ First option is to disable the landing page from the settings page but in that c
 
 The second option is to override our default landing page by changing the source code itself.
 
-The landing page is located in **resources &gt; views &gt; social &gt; home.blade.php.**
+The landing page is located in **resources &gt; views &gt; poslanding &gt; home.blade.php.**
 
 Open the file and remove all the code inside. Put your HTML code there and save the file.
 

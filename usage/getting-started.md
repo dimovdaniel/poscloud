@@ -16,11 +16,22 @@ An **admin** is responsible for:
 * Manage pages
 * Manage application settings
 
-A **owner** can actually work with restaurant:
+An **owner** can actually work with the restaurant:
 
 * Manage own restaurant
 * Manage restaurant menu
-* Create QR design
+* Manage Staff
+* Manage Expenses
+* Manage floor plan
+
+A **staff -** waiter can actually work with the ordering process:
+
+* Manage own orders
+* Take new orders
+
+
+
+
 
 ## Login as admin
 

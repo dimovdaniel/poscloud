@@ -17,11 +17,8 @@
 ## Plugins
 
 * [How to install plugin](plugins/how-to-install-plugin.md)
-* [Pusher](plugins/pusher.md)
-* [ShareThis](plugins/sharethis.md)
 * [Cookie Consent](plugins/cookieconsent.md)
 * [Google Analytics](plugins/google-analytics.md)
-* [Google Map API](plugins/google-map-api.md)
 * [Thermal Printer Module](plugins/thermal-printer-module.md)
 
 ## Usage
@@ -30,11 +27,8 @@
 * [Set up your site](usage/set-up-your-site.md)
 * [Restaurant subdomain](usage/restaurant-subdomain.md)
 * [Translations](usage/translations.md)
-* [Multilingual menu](usage/multilingual-menu.md)
 * [Custom CSS](usage/custom-css.md)
-* [Call Waiter](usage/call-waiter.md)
 * [Import from CSV](usage/import-from-csv.md)
-* [Custom fields on order](usage/custom-fields-on-order.md)
 * [Add your own landing page](usage/add-your-own-landing-page.md)
 
 ## Changelog
