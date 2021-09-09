@@ -10,10 +10,10 @@ Lion POS comes with the following modules.
 
 They are located in **modules** folder
 
-You can zip this modules, and upload them in QR Menu Maker. So you will get the POS functionality in QR Menu Maker. Unfortunately, WhatsApp and FoodTiger are not compatible. 
+You can zip these modules one by one and upload them in QR Menu Maker. So you will get the POS functionality in QR Menu Maker. Unfortunately, WhatsApp and FoodTiger are not compatible. 
 
 {% hint style="info" %}
-At this moment the POS module in not 100% operational in QR Menu Maker - but will be soon.
+At this moment the POS module is not 100% operational in QR Menu Maker - but will be soon.
 {% endhint %}
 
 
