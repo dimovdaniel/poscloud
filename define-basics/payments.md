@@ -8,7 +8,23 @@ You can manage the settings for them if you login as admin and then to got Setti
 
 ## **Information about the pricing plans**
 
-{% embed url="https://www.youtube.com/watch?v=RakPeKbQpsk" %}
+{% embed url="https://www.youtube.com/watch?v=RakPeKbQpsk" caption="" %}
+
+### How to get the keys
+
+**Stripe Keys**
+
+[https://stripe.com/docs/keys](https://stripe.com/docs/keys)
+
+**PayPal keys**
+
+[https://developer.paypal.com/docs/api-basics/sandbox/credentials/](https://developer.paypal.com/docs/api-basics/sandbox/credentials/)
+
+**Paddle**
+
+Your Paddle Vendor ID can be found on the [Authentication page](https://vendors.paddle.com/authentication) in your Paddle dashboard.
+
+
 
 ### Stripe
 
@@ -22,13 +38,13 @@ One common mistake is to use plan\_id instead of price\_id. So you should use th
 
 ### PayPal
 
-First, login as admin, and go in Settings. Go in the Finances tab, and make sure Tool used for subscriptions is PayPal. 
+First, login as admin, and go in Settings. Go in the Finances tab, and make sure Tool used for subscriptions is PayPal.
 
 First you will need to create developer account on PayPal on the following [link](https://developer.paypal.com/classic-home). After you create the account open the **Dashboard** from the menu in the right upper corner.
 
-Now select **My Apps and credentials** and click on the button **Create App**. 
+Now select **My Apps and credentials** and click on the button **Create App**.
 
-Now fill the informations that are required and make sure that you will select the **Merchant App Type**. After you created the app you will see the **Client ID** and **Secret** credentials ****generated.  ****Copy them and fill your PayPal credentials in Settings-&gt; Finances. First, test in development - sandbox mode.
+Now fill the informations that are required and make sure that you will select the **Merchant App Type**. After you created the app you will see the **Client ID** and **Secret** credentials **generated.** Copy them and fill your PayPal credentials in Settings-&gt; Finances. First, test in development - sandbox mode.
 
 ![](https://i.imgur.com/MIa2WGc.png)
 
