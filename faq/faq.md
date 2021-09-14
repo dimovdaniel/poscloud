@@ -6,17 +6,21 @@ description: Frequently Asked Questions (FAQs)
 
 ## Install the project in subdomain
 
-When you want to run your project in subdomain, you need to declare this subdomain in your Settings. To do that, you will need to go to Site setting-&gt;Setup-&gt;Subdomains and add your domain there. Ex, if you want to run the project in app.domain.com.
+When you want to run your project in subdomain, you need to declare this subdomain in your Settings. To do that, you will need to go to Site setting->Setup->Subdomains and add your domain there.  Ex, if you want to run the project in app.domain.com.
 
 ![](https://i.imgur.com/k6uuMa2.jpg)
 
+
 ## How to set overnight working time
 
-Since 2.5.2 you are able to set overnight working time just by making ex start time 08:00PM and closing time ex 02:00 PM
+Since 2.5.2 you are able to set overnight working time just by  making ex start time 08:00PM and closing time ex 02:00 PM
 
 ## Notification translation
 
-One really common problem is that the emails is no received correctly. Password or email is missing. and here is the reason why. Please check this [video](https://www.loom.com/share/112938a8fa31418386b5ae2c8c71303b)
+One really common problem is that the emails is no received correctly. Password or email is missing. 
+and here is the reason why. 
+Please check this [video](https://www.loom.com/share/112938a8fa31418386b5ae2c8c71303b)
+
 
 ## Registration is not working.
 
@@ -89,6 +93,17 @@ Easy to translate to any language. All strings are in few files.
 * Then try again to update
 
 **Solution 2**: Please speak with you hosting provider to clear the contents \( specifically v2.x.x.zip \) of the system **tmp** folder. If you can you can do this on your own. Server restart in most cases also clears the tmp folder.
+
+**Solution 3**:
+
+Change the update server
+
+Open  the .env file and change the update path to different update server
+* Go to you cPanel
+* Open File Manager
+* Open .env \(it is hidden - enable hidden files\)
+* Add the variable 
+* SELF\_UPDATER\_REPO\_URL="http://31949.s.time4vps.cloud/v2/"
 
 ### Error on update 503
 
@@ -235,5 +250,15 @@ This indicates that the INTL extension - or depending on the problem, another on
 
 Here is a good video on how you can enable it. If you can't. Please speak with your hosting provider.
 
-{% embed url="https://www.youtube.com/watch?v=kYwRtMwWerQ" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=kYwRtMwWerQ" %}
 
+
+##  Staff module error 500
+
+**Problem**: you get error  500 when adding new staff member.
+
+**Reason**: With older installs/db the "staff" role is missing
+
+**Solution**: Manually add  it  in the database
+
+![](https://i.imgur.com/y2mcVTJ.png)
