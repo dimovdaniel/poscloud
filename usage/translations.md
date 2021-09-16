@@ -44,13 +44,18 @@ There enter the existing string \( String that you see on the site ex. Platform 
 
 ## Add language on the front page
 
-The dropdown of languages you see on the front page.
+The dropdown of languages you see on the front page and in the admin language changer
 
 ![](https://i.imgur.com/tmVHN6R.png)
 
-Is controlled from Settings -&gt; Localization. There in FRONT\_LANGUAGES, enter the desired languages separated by a comma and their Locale
+Is controlled from Settings -&gt; Localization.
 
-![](https://i.imgur.com/OiRl1FS.png)
+![](https://i.imgur.com/Nc5e8xA.png)
+
+> Please make sure you have the following format. SHORTCODE,Language name,SHORTCODE,Language name for example  
+> EN,English,FR,French
+> EN,English
+> EN,English,RU,Russian,ES,Spanish
 
 ## Translate the front page
 
