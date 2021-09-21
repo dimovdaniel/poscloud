@@ -7,6 +7,7 @@ Lion POS comes with the following modules.
 1. Floor Plan
 2. POS \( exclusive so LionPOS \)
 3. Staff
+4. Expenses
 
 They are located in **modules** folder
 
