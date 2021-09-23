@@ -14,6 +14,7 @@ They are located in **modules** folder
 Copy and paste from Lion POS to QR Menu maker or WhatsApp project
 
 * public/softd
+* public/vendor/interact/interact.min.js
 
 You can zip these modules one by one and upload them in QR Menu Maker. So you will get the POS functionality in QR Menu Maker. Unfortunately, WhatsApp and FoodTiger are not compatible.
 
