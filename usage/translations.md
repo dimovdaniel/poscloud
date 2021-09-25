@@ -62,15 +62,13 @@ Is controlled from Settings -&gt; Localization.
 
 ![](https://i.imgur.com/Nc5e8xA.png)
 
-> Please make sure you have the following format. SHORTCODE,Language name for example 
+> Please make sure you have the following format. SHORTCODE,Language name for example
 
-``` EN,English,FR,French ```
+`EN,English,FR,French`
 
+`EN,English`
 
-``` EN,English ```
-
-
-``` EN,English,FR,French,RU,Russian,ES,Spanish ```
+`EN,English,FR,French,RU,Russian,ES,Spanish`
 
 ## Translate the front page
 
