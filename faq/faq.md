@@ -148,7 +148,7 @@ You get a white screen with Error 500 as on this screen.
 **Reason**  
 This is a general error, meaning something wrong happened in the system. And it can be from different causes. it can be a bug or misconfiguration.
 
-**Solution**  
+**Option 1: Enable debug mode from admin**  
 First, we need to see why this error happens,  
 Enable debug mode, so you can see what is behind the 500 error. To do that
 
@@ -156,6 +156,17 @@ Enable debug mode, so you can see what is behind the 500 error. To do that
 2. Go In **Setting**
 3. Select **Setup** tab
 4. Select **APP\_DEBUG**
+
+Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct.
+
+**Option 2: Enable debug mode from cPanel file manager**  
+In case you are not able to login, you have the option to manually enable debug mode. 
+
+1. Go to your cPanel file manager
+2. Find the file **.env** and edit it. This file is hidden so you may need to [show hidden file in cPanel](https://www.plothost.com/kb/show-hidden-files-htaccess-cpanel-file-manager/)  
+3. Locate APP_DEBUG=false and change it to
+4. APP_DEBUG=true
+5. Now you have debug mode ON
 
 Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct.
 
