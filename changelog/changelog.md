@@ -21,6 +21,12 @@
 
 ### Modules
 
+* [Custom Domain](https://mobidonia.gumroad.com/l/COWDi)
+* [Coupons](https://mobidonia.gumroad.com/l/djizl)
+* [Prepare Time](https://mobidonia.gumroad.com/l/kyFdp)
+* [Default tax](https://mobidonia.gumroad.com/l/defaulttax)
+* [Language Pack](https://mobidonia.gumroad.com/l/languepack)
+
 
 ### How to update
 
