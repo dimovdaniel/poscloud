@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.x - Continues updates
+
+* 3.0.1 - Coupons Fix, Order change QTY fix, Coupons Deduction fix - [Files](https://paste.laravel.io/1cca9e36-bf76-4f62-860f-9b40db662861)
+
 ## 3.0.0 - 2021-11-08
 
 ### Video
