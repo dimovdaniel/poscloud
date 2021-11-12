@@ -2,6 +2,7 @@
 
 ## 3.0.x - Continues updates
 
+* 3.0.2 - Fix bug on making order, Bug fix on logo save, No working hours[Files](https://paste.laravel.io/61619615-1d64-47f4-9e13-e7d18a3e89a2)
 * 3.0.1 - Coupons Fix, Order change QTY fix, Coupons Deduction fix - [Files](https://paste.laravel.io/1cca9e36-bf76-4f62-860f-9b40db662861)
 
 ## 3.0.0 - 2021-11-08
