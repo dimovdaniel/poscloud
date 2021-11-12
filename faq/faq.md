@@ -6,7 +6,7 @@ description: Frequently Asked Questions (FAQs)
 
 ## Install the project in subdomain
 
-When you want to run your project in subdomain, you need to declare this subdomain in your Settings. To do that, you will need to go to Site setting-&gt;Setup-&gt;Subdomains and add your domain there. Ex, if you want to run the project in app.domain.com.
+When you want to run your project in subdomain, you need to declare this subdomain in your Settings. To do that, you will need to go to Site setting->Setup->Subdomains and add your domain there. Ex, if you want to run the project in app.domain.com.
 
 ![](https://i.imgur.com/k6uuMa2.jpg)
 
@@ -22,13 +22,15 @@ One really common problem is that the emails is no received correctly. Password 
 
 This is one of the most common problems. It happens because SMTP is not correctly set up, or not set up at all. To learn how to set it up, follow this guide
 
-{% page-ref page="../define-basics/obtain-smtp.md" %}
+{% content-ref url="../define-basics/obtain-smtp.md" %}
+[obtain-smtp.md](../define-basics/obtain-smtp.md)
+{% endcontent-ref %}
 
 ## How do restaurants owner register?
 
 At the front end part of the script, you will find the form for **Registration.** . The interested restaurants will fill the form, and Restaurant/owner account will be automatically created. An email will be sent to them.
 
-The restaurant owner will need to log in with the email and password \(generated password can change if he wants on the profile page\). After that, the owner can start filling the items/categories for his restaurant.
+The restaurant owner will need to log in with the email and password (generated password can change if he wants on the profile page). After that, the owner can start filling the items/categories for his restaurant.
 
 Initially, they are assigned to a free plan.
 
@@ -40,7 +42,7 @@ Easy to translate to any language. All strings are in few files.
 
 ## What technology is used?
 
-### WEB \( Storefront and Dashboard \)
+### WEB ( Storefront and Dashboard )
 
 * Laravel - PHP Framework
 * MySQL Database
@@ -71,7 +73,7 @@ Easy to translate to any language. All strings are in few files.
 * This should be enough
 * Then try to update again
 
-### Error on update  "tmp/v2.x.x" not found
+### Error on update "tmp/v2.x.x" not found
 
 **Problem**: When you click on the update button, you get a blank screen with error 500. if you enable debug mode, you see the error directory "tmp/v2.0.x" not found.
 
@@ -83,12 +85,12 @@ Easy to translate to any language. All strings are in few files.
 
 * Go to you cPanel
 * Open File Manager
-* Open .env \(it is hidden - enable hidden files\)
-* Add the variable 
-* SELF\_UPDATER\_DOWNLOAD\_PATH="/home/YOUR\_WORKSPACE\_NAME/tmp/" 
+* Open .env (it is hidden - enable hidden files)
+* Add the variable
+* SELF\_UPDATER\_DOWNLOAD\_PATH="/home/YOUR\_WORKSPACE\_NAME/tmp/"
 * Then try again to update
 
-**Solution 2**: Please speak with you hosting provider to clear the contents \( specifically v2.x.x.zip \) of the system **tmp** folder. If you can you can do this on your own. Server restart in most cases also clears the tmp folder.
+**Solution 2**: Please speak with you hosting provider to clear the contents ( specifically v2.x.x.zip ) of the system **tmp** folder. If you can you can do this on your own. Server restart in most cases also clears the tmp folder.
 
 **Solution 3**:
 
@@ -98,13 +100,31 @@ Open the .env file and change the update path to different update server
 
 * Go to you cPanel
 * Open File Manager
-* Open .env \(it is hidden - enable hidden files\)
-* Add the variable 
+* Open .env (it is hidden - enable hidden files)
+* Add the variable
 * SELF\_UPDATER\_REPO\_URL="[http://31949.s.time4vps.cloud/v2/](http://31949.s.time4vps.cloud/v2/)"
+
+**Solution 4:**
+
+**Important**: Backup all your project files in case somethiing goes wrong ( you can zip the files and folder )
+
+Do all the steps in **Solution 1**
+
+**Try to update**
+
+Then go to your file manager /home/YOUR\_WORKSPACE\_NAME/tmp/
+
+There you should see the files for the update extracted
+
+Go inside the folder ex v2.7.3
+
+Select all the files and folder and click on the move button
+
+Move them to /public\_html (if your project is in root) or /public\_html/sitedomain.com&#x20;
 
 ### Error on update 503
 
-**Problem**: After an update, some users experience error 503 \| Service not found.
+**Problem**: After an update, some users experience error 503 | Service not found.
 
 **Cause**: This mostly happens because your PHP setup doesn't have the ZIP extension enabled.
 
@@ -114,7 +134,7 @@ You will need to enable the ZIP extension
 
 This is the best and simplest guide we could find on how to enable the ZIP extension in cPanel
 
-{% embed url="https://bobcares.com/blog/enable-php-zip-extension-cpanel/" caption="" %}
+{% embed url="https://bobcares.com/blog/enable-php-zip-extension-cpanel/" %}
 
 Also, please talk with your hosting provider on how to enable the zip extension for you.
 
@@ -140,16 +160,16 @@ c
 
 ## Error 500
 
-**Problem**  
+**Problem**\
 You get a white screen with Error 500 as on this screen.
 
 ![](https://i.imgur.com/HZmpG35.png)
 
-**Reason**  
+**Reason**\
 This is a general error, meaning something wrong happened in the system. And it can be from different causes. it can be a bug or misconfiguration.
 
-**Option 1: Enable debug mode from admin**  
-First, we need to see why this error happens,  
+**Option 1: Enable debug mode from admin**\
+First, we need to see why this error happens,\
 Enable debug mode, so you can see what is behind the 500 error. To do that
 
 1. Login as admin
@@ -159,13 +179,13 @@ Enable debug mode, so you can see what is behind the 500 error. To do that
 
 Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct.
 
-**Option 2: Enable debug mode from cPanel file manager**  
-In case you are not able to login, you have the option to manually enable debug mode. 
+**Option 2: Enable debug mode from cPanel file manager**\
+In case you are not able to login, you have the option to manually enable debug mode.
 
 1. Go to your cPanel file manager
-2. Find the file **.env** and edit it. This file is hidden so you may need to [show hidden file in cPanel](https://www.plothost.com/kb/show-hidden-files-htaccess-cpanel-file-manager/)  
-3. Locate APP_DEBUG=false and change it to
-4. APP_DEBUG=true
+2. Find the file **.env** and edit it. This file is hidden so you may need to [show hidden file in cPanel](https://www.plothost.com/kb/show-hidden-files-htaccess-cpanel-file-manager/)
+3. Locate APP\_DEBUG=false and change it to
+4. APP\_DEBUG=true
 5. Now you have debug mode ON
 
 Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct.
@@ -178,38 +198,38 @@ Here is how you can obtain a link.
 
 ## Error 500 on migrating languages
 
-**Problem**  
+**Problem**\
 Before, 2.0.8 if you try to migrate language you can get an error 500. And some of the items like the categories can be translated multiple times like `{en:\\\en:\\\......}`
 
-**Reason**  
+**Reason**\
 This happens because we didn't look into object active status. And script crashed when it tried to translate an un-active record.
 
-**Solution**  
+**Solution**\
 Update to 2.0.8+ For the`{en:\\\en:\\\......}`, if you don't have a lot of data, you can manually edit them from the admin. If you have a lot of data,
 
 * Export the categories and items table
 * Find replace, so it looks normal
-* Delete categories and items by ignoring foreign keys and import again
+*   Delete categories and items by ignoring foreign keys and import again
 
-  Or ask for help from us.
+    Or ask for help from us.
 
 Then make the translation migration again. Now should go fine.
 
 ## SQL Error - Table not found
 
-**Error**  
+**Error**\
 After installation, when you open your site, you see an error screen with a report similar to this.
 
-```text
+```
 local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'plan.plan_id'
 ```
 
-**Reason**  
+**Reason**\
 The most common problem for this is because you have entered the wrong credentials/user/pass for the Database and the setup of the database was incomplete.
 
 **Solution**
 
-1. Open the file **.env** and make sure you have entered the correct  DB data
+1. Open the file **.env** and make sure you have entered the correct DB data
 2. Remove file storage/installed
 3. Try to install again by visiting yourdomain.com/install
 
@@ -221,7 +241,7 @@ If that doesn't help, please create a ticket, and if you can share cPanel / Admi
 
 "PHP Fileinfo extension must be installed
 
-**Reason**  
+**Reason**\
 "PHP Fileinfo extension must be installed/enabled to use Intervention Image."
 
 The project needs the [fileinfo](https://i.stack.imgur.com/vhN3E.png) extension.
@@ -234,7 +254,7 @@ As you can see on the [image](https://i.stack.imgur.com/vhN3E.png), it can be en
 
 Initially, we login to WHM and navigate as follows,
 
-Software &gt;&gt; EasyApache 4 &gt;&gt; Customize &gt;&gt; PHP extensions.
+Software >> EasyApache 4 >> Customize >> PHP extensions.
 
 Here we search for **fileinfo** and enable phpx.x-php-fileinfo for all versions. Finally, we click on Review and Provision.
 
@@ -258,7 +278,7 @@ This indicates that the INTL extension - or depending on the problem, another on
 
 Here is a good video on how you can enable it. If you can't. Please speak with your hosting provider.
 
-{% embed url="https://www.youtube.com/watch?v=kYwRtMwWerQ" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=kYwRtMwWerQ" %}
 
 ## Staff module error 500
 
@@ -269,4 +289,3 @@ Here is a good video on how you can enable it. If you can't. Please speak with y
 **Solution**: Manually add it in the database
 
 ![](https://i.imgur.com/y2mcVTJ.png)
-
