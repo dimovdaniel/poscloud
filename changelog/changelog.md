@@ -2,6 +2,7 @@
 
 ## 3.0.x - Continues updates
 
+* 3.0.3 - Remove apps, Vendor plan monthly order limit [Files](https://paste.laravel.io/0717e2e7-0305-4ae6-811d-415b1891c317)
 * 3.0.2 - Fix bug on making order, Bug fix on logo save, No working hours[Files](https://paste.laravel.io/61619615-1d64-47f4-9e13-e7d18a3e89a2)
 * 3.0.1 - Coupons Fix, Order change QTY fix, Coupons Deduction fix - [Files](https://paste.laravel.io/1cca9e36-bf76-4f62-860f-9b40db662861)
 
