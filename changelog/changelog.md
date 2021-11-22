@@ -2,6 +2,7 @@
 
 ## 3.0.x - Continues updates
 
+* 3.0.6 - 3.0.3, 3.0.4, 3.0.5 + Language switch fix [Files](https://paste.laravel.io/0e424692-add2-4822-bc1f-52559fbbdbbf)
 * 3.0.5 - POS fixes [Files](https://paste.laravel.io/06b893a6-ebee-41cd-b586-a30b8d46d0db)
 * 3.0.4 - 3.0.3+ Small fixes. Error was made in the zipping of the update in 3.0.3 [Files](https://paste.laravel.io/8563ed64-4b02-4629-87ae-65a0480c145a)
 * 3.0.3 - Remove apps, Vendor plan monthly order limit - file changed is config/config.php
