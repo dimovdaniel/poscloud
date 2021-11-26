@@ -18,6 +18,10 @@ Copy and paste from Lion POS to QR Menu maker or WhatsApp project
 
 You can zip these modules one by one and upload them in QR Menu Maker. So you will get the POS functionality in QR Menu Maker, WhatsApp and FoodTiger.
 
+
+
+{% embed url="https://www.loom.com/share/d50bee8f4eaf4ec29bf3546d5d7a6bf9" %}
+
 {% hint style="info" %}
 Make sure you use version 2.7.3+ of QR Menu Maker for full compatibility.
 {% endhint %}
