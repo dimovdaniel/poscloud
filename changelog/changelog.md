@@ -1,5 +1,36 @@
 # Changelog
 
+## 3.1.0 - 2022-01-16
+
+### Video
+
+### New
+
+* Phone number input
+* Improved apps page
+* Staff can see live orders.
+* Filter by order status and payment
+
+### Fixes
+
+* Owner can see the POS ( 1.4 )
+* Stripe subscribe cancel button
+* Other small bug fixes
+
+### Modules
+
+* Detrack module
+
+### How to update
+
+Just log in as admin, go to "Updates" and you should see new "New Update 3.1.0" button. Click on the button to update. Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them. NOTE: For this update we strongly recommend to backup your database and files.
+
+### List of updated files
+
+[Updated files](https://paste.laravel.io/400952df-62f9-40b2-8380-0d6f8bb0b070)
+
+
+
 ## 3.0.x - Continues updates
 
 * 3.0.6 - 3.0.3, 3.0.4, 3.0.5 + Language switch fix [Files](https://paste.laravel.io/0e424692-add2-4822-bc1f-52559fbbdbbf)
