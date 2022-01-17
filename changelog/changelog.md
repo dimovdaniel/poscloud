@@ -1,6 +1,11 @@
 # Changelog
 
+## 3.1.x - Continues updates
+
+* 3.1.1 Flags and  Finances fixes in 3.1.0 [Files](https://paste.laravel.io/a58c2b81-a9af-44e5-b092-56df0294d0b6)
+
 ## 3.1.0 - 2022-01-16
+
 
 ### Video
 
