@@ -2,6 +2,7 @@
 
 ## 3.1.x - Continues updates
 
+* 3.1.3 Register problem with recaptcha enabled fix [Files](https://paste.laravel.io/2c4cd9a8-4187-4193-921a-6fed48727193)
 * 3.1.2 Register Vendor in admin and Vendor Finances fix in 3.1.0 [Files](https://paste.laravel.io/6a1da2e8-9ee8-4022-97af-c05010ea77b9)
 * 3.1.1 Flags and  Finances fixes in 3.1.0 [Files](https://paste.laravel.io/a58c2b81-a9af-44e5-b092-56df0294d0b6)
 
