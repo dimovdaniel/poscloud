@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.2.x - Continues updates
+
+* 3.2.1 Fix problem sending to Whatsapp [Files](https://paste.laravel.io/ce079a93-20c7-4ca1-8016-a3caf4477ada)
+
+
+
 ## 3.2.0 - 2022-03-20
 
 ### Video
