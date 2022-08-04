@@ -1,5 +1,45 @@
 # Changelog
 
+## 3.3.0 - 2022-08-05
+
+### Video
+
+{% embed url="https://youtu.be/wgnqKEyjkPE" %}
+
+### New
+
+* Restaurant Search in Admin
+* KDS compatible and KDS API
+* On Address change, change location of vendor
+* Community plugins
+* API: Deactivate Account- APP
+* Login as from vendor details
+* Pusher event on order update
+
+### Bugs
+
+* Bug:When no orders, can't change filters
+* Bug:Return only staff users in Staff List
+* Bug:Options with special character or arabic
+* Bug:Items import redirect to index page, and more robust import
+* Bug:Saving Simple Delivery area without phone
+* Bug:Stripe subscribe issues
+* Bug:Landing page can't be disabled - error in saving .env
+* Bug:Problematic image removed from pwa
+
+### Modules
+
+* [Kitchen Display System](https://www.loom.com/share/4a8460875c2c4d1aa0227ea94009de91)
+
+### How to update
+
+Just log in as admin, go to "Updates" and you should see new "New Update 3.3.0" button. Click on the button to update. Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them. NOTE: For this update we strongly recommend to backup your database and files.
+
+### List of updated files
+
+[Updated files](https://paste.laravel.io/7dce0e61-8c18-4752-b906-3fbe7c5248c6)
+
+
 ## 3.2.x - Continues updates
 
 * 3.2.2 Multiple fixes [INFO](https://share.cleanshot.com/rjhERB) [Files](https://gist.github.com/dimovdaniel/cdb1c3c252d1e06788a4f8716cb238ff)
