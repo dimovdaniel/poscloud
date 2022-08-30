@@ -1,4 +1,8 @@
-# Run local
+# Run local - Mamp,Xamp,Wamp
+You can run the project in your local computer by using  Mamp,Xamp or Wamp
+{% embed url="https://www.loom.com/share/35a324760fbc427b9978fcccea6cc525" caption="" %}
+
+# Run local - Docker way
 
 In Laravel 8, there is a new package available called [https://laravel.com/docs/8.x/sail](https://laravel.com/docs/8.x/sail).
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.3.x - Continues updates
+
+* 3.3.1 Small improvements [Changes](https://share.cleanshot.com/EzvOZR) [Files](https://paste.laravel.io/6dfcd9f1-9daf-4682-87f0-ba4ace82e7a6)
+
+
 ## 3.3.0 - 2022-08-05
 
 ### Video
