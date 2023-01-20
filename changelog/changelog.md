@@ -1,5 +1,28 @@
 # Changelog
 
+## 3.5.0 - 2023-01-21
+
+### New
+* Order ID per vendor
+
+### Improvements
+* Vat calculation
+* Pages slug
+* Coupons
+* Timezone
+
+### Modules
+SaaS Dashboard - SaaS related dashboard
+
+### How to update
+
+Just log in as admin, go to "Updates" and you should see new "New Update 3.5.0" button. Click on the button to update. Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them. NOTE: For this update we strongly recommend to backup your database and files.
+
+### List of updated files
+
+[Updated files](https://paste.laravel.io/b947fc4c-0af1-41e7-a4f2-dcc947496cfe)
+
+
 ## 3.4.x - Continues updates
 
 * 3.4.1 Clone on item level - activated - change in resources/views/items/edit.blade.php and config/config.php
