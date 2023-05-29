@@ -1,5 +1,27 @@
 # Changelog
 
+## 3.6.0 - 2023-05-29
+
+### Modules
+Tips - free module
+Stock
+Razorpay subscription
+
+### New
+* Allow staff to login in owner app
+
+### Improvements
+* Improvements in KDS and POS module
+
+
+### How to update
+
+Just log in as admin, go to "Updates" and you should see new "New Update 3.6.0" button. Click on the button to update. Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them. NOTE: For this update we strongly recommend to backup your database and files.
+
+### List of updated files
+
+[Updated files](https://paste.laravel.io/ee10ec9c-8702-42e4-8ffa-8bd8708c9a38)
+
 ## 3.5.0 - 2023-01-21
 
 ### New
