@@ -1,5 +1,21 @@
 # Changelog
 
+## 4.1.0 - 2024-10-16
+
+### New
+* [Items reorder](https://x.com/dimovdaniel/status/1846246169267118374)
+* Enable / Disable categories
+
+
+### Updating
+To update from the previous release.
+Login as admin. Upload the version_update.zip file in the "Apps".
+Then go to "Settings". 
+The update will be applied.
+
+### List of updated files
+[Updated files](https://gist.github.com/dimovdaniel/a2686a153217626173869df7ffe8f4ec)
+
 
 ## 4.0.0 - 2024-01-02
 
